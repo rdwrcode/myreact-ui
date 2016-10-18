@@ -1,7 +1,8 @@
 {
   "name": "myreact-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "homepage": "http://rdwrcode.github.io/myreact-ui",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
