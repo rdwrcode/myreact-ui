@@ -6,6 +6,9 @@ import Navigation from './flexbox/Navigation';
 import Full from './flexbox/Full';
 import Basic from './grid/Basic';
 import Buttons from './bootstrap/Buttons';
+import ImageSlide from './cssonly/ImageSlide';
+import FileUpload from './cssonly/FileUpload';
+//import Scroller from './cssonly/Scroller';
 
 import logo from './logo.svg';
 import './App.css';
@@ -35,6 +38,8 @@ class App extends Component {
         <Full />
         <Basic />
         <Buttons cbs={this.buttonHandler}/>
+        <FileUpload />
+        <ImageSlide />
       </div>
     );
   }
